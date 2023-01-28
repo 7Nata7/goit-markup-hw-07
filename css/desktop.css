@@ -12,10 +12,7 @@
     .customers {
         padding-top: 130px;
         width: 1128px;
-                /* margin-right: auto;
-                margin-left: auto; */
             }
-    }
     .company {
         width: calc((100% - 120px) / 6);
         }
