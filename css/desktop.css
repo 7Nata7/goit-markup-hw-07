@@ -1,0 +1,85 @@
+@media screen and (min-width: 1200px) {
+    .container {
+        max-width: 1158px;
+    }
+    .team {
+        padding-top: 120px;
+     }
+    .card-general {
+        flex-wrap: nowrap;
+        gap: 24px;
+    }
+    .customers {
+        padding-top: 130px;
+        width: 1128px;
+                /* margin-right: auto;
+                margin-left: auto; */
+            }
+    }
+    .company {
+        width: calc((100% - 120px) / 6);
+        }
+    .hero {
+        padding-top: 188px;
+        padding-bottom: 188px;
+    }
+    .hero-ground {
+        max-width: 1440px;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/office.jpg);
+    }
+    .main-title {
+        margin: 0 auto 48px;
+    }
+    .advantages {
+        padding-top: 120px;
+    }
+    .picture-adv {
+        display: flex;
+        justify-content: center;
+        height: 112px;
+        background-color: #F4F4FD;
+        margin-bottom: 8px;
+        align-items: center;
+    }
+        .adv-list {
+        gap: 24px;
+        display: flex;
+        }
+    .adv-item {
+        width: calc((100% - 72px) / 4);
+    }
+    .title {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+    }
+    .works {
+        padding-top: 0px;
+    }
+    .pic-doing {
+        display: flex;
+        gap: 24px;
+        align-items: center;
+    }
+/* ------------------- FOOTER --------------------- */
+    .footer {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .three-boxes {
+        display: flex;
+    }
+
+/*----------------- first-box --------------------*/
+    .first-footer-box {
+        margin-right: 120px;
+    }
+    .soc-contacts-footer {
+        display: flex;
+        gap: 16px;
+    }
+    .third-footer-box {
+        margin-left: auto;
+    }
+
+}

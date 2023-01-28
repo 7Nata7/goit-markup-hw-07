@@ -1,0 +1,77 @@
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+    .card-general {
+        row-gap: 64px;
+        column-gap: 24px;
+    }
+    .customers {
+        width: 552px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .customers-card {
+        column-gap: 24px;
+    }
+   .company {
+       width: calc((100% - 48px) / 3);
+
+   }
+   .hero{
+        padding-bottom: 108px;
+   }
+   .hero-ground {
+        max-width: 768px;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/bcg_tab.jpg);
+   }
+   .main-title {
+        font-size: 56px;
+        line-height: 1.07;
+        width: 494px;
+        margin: 0 auto 40px;
+   }
+   .adv-item {
+       width: calc((100% - 24px) / 2);
+   }
+   .adv-list {
+       column-gap: 24px;
+   }
+   .title {
+        text-align: left;
+   }
+
+/* ------------------- FOOTER --------------------- */
+/* ------------------ first-box ------------------- */
+   .first-footer-box {
+       max-width: 264px;
+       margin: 0;
+   }
+   .text-footer {
+       width: 264px;
+   }
+   .logo-footer {
+       margin-right: 0;
+       text-align: left;
+   }
+   .three-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 72px;
+    column-gap: 24px;
+    justify-content: center;
+   }
+/* ------------------------- second-box ------------------------ */
+    .soc-contacts-footer {
+            display: flex;
+            gap: 16px;
+        }
+/* ------------------------- third-box ------------------------ */
+    .subscribe-input {
+            width: 264px;
+        }
+    .third-footer-box {
+        margin-left: 108px;
+        margin-right: auto;
+    }
+}
