@@ -1,18 +1,23 @@
+/* меньше чем 480 (т.е.для 320) */
+@media screen and (max-width: 480px) {
+    .main-title {
+        width: 280px;
+        font-size: 30px;
+    }
+    .modal {
+        width: 320px;
+    }
+}
+
+
+/* больше чем 480 */
 @media screen and (min-width: 480px) {
     .container {
         max-width: 428px;
     }
-    
+        .modal {
+            width: 392px;
+            padding: 72px 16px 24px;
+        }
 }
-@media screen and (max-width: 480px) {
-.second-footer-box {
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
-@media screen and (max-width: 320px) {
-    .main-title {
-    width: 300px;
-    font-size: 32px;
-    }
-}
+

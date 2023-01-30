@@ -13,6 +13,10 @@
     />
     <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/mobile.css" />
+    <link rel="stylesheet" href="./css/mobile_menu.css" />
+    <link rel="stylesheet" href="./css/tablet.css" />
+    <link rel="stylesheet" href="./css/desktop.css" />
   </head>
   <body class="first-page">
 
@@ -21,6 +25,12 @@
     <header class="top">
       <div class="container header-container">
         <a href="/" class="logo link">WEB<span class="studio">STUDIO</span></a>
+     
+     
+
+        
+      <!-------------------- MENU-GENERAL ------------------------>
+      </div>
         <nav class="navigation">
           <ul class="menu list">
             <li><a href="" class="menu-item link current">Studio</a></li>
@@ -137,12 +147,12 @@
 
       <section class="team section">
         <div class="container">
-          <h2 class="heading">Our Team</h2>
+          <h2 class="heading ">Our Team</h2>
           <ul class="list card-general">
             <li class="team-card">
               <img src="./images/mark.jpg" alt="mark" width="264" />
               <div class="space-card">
-                <h3 class="card-name title">Mark Guerrero</h3>
+                <h3 class="card-name">Mark Guerrero</h3>
                 <p class="card-title">Product Designer</p>
                 <ul class="soc-contacts list">
                   <li class="soc-items">
@@ -179,7 +189,7 @@
             <li class="team-card">
               <img src="./images/tom.jpg" alt="tom" width="264" />
               <div class="space-card">
-                <h3 class="card-name title">Tom Ford</h3>
+                <h3 class="card-name">Tom Ford</h3>
                 <p class="card-title">Frontend Developer</p>
                 <ul class="soc-contacts list">
                   <li class="soc-items">
@@ -216,7 +226,7 @@
             <li class="team-card">
               <img src="./images/camila.jpg" alt="camila" width="264" />
               <div class="space-card">
-                <h3 class="card-name title">Camila Garcia</h3>
+                <h3 class="card-name">Camila Garcia</h3>
                 <p class="card-title">Marketing</p>
                 <ul class="soc-contacts list">
                   <li class="soc-items">
@@ -253,7 +263,7 @@
             <li class="team-card">
               <img src="./images/daniel.jpg" alt="daniel" width="264" />
               <div class="space-card">
-                <h3 class="card-name title">Daniel Wilson</h3>
+                <h3 class="card-name">Daniel Wilson</h3>
                 <p class="card-title">UI Designer</p>
                 <ul class="soc-contacts list">
                   <li class="soc-items">
@@ -363,7 +373,7 @@
         <!------------------------- second-box ------------------------>
 
         <div class="second-footer-box">
-          <h3 class="title title-footer">Social links</h3>
+          <h3 class="title-footer">Social media</h3>
           <ul class="soc-contacts-footer list">
             <li class="soc-items">
               <a href="" class="soc-link-footer link">
@@ -400,7 +410,7 @@
 
         <div class="third-footer-box">
           <form class="email-input">
-            <p class="title title-footer">Subscribe</p>
+            <p class="title-footer">Subscribe</p>
               <div class="subscribe-flex">
                 <input type="email" name="email" placeholder="E-mail" class="subscribe-input">
                   <button type="submit" class="btn subscribe-btn">Subscribe
@@ -493,11 +503,78 @@
           </form>
         </div>
       </div>
+
+    <!---------------------- MOBILE-MENU ---------------------------->
+        <div class="container">
+          <button type="button" class="menu-open btn" aria-expanded="false" aria-controls="menu-container" data-menu-button>
+            <svg class="menu-open-icon" width="32" height="22" aria-label="on-off">
+              <use href="./images/icons.svg#icon-charm_menu"></use>
+            </svg>
+          </button>
+          <nav>
+            <div class="mob-menu">
+
+              <button type="button" class="mob-close" data-modal-close>
+                <svg width="8" height="8" class="mob-close-cross">
+                  <use href="./images/icons.svg#icon-close-cross"></use>
+                </svg>
+              </button>
+
+              <ul class="mob-menu-list list">
+                <li><a href="" class="mob-menu-item link current">Studio</a></li>
+                <li>
+                  <a href="./portfolio.html" class="mob-menu-item link">Portfolio</a>
+                </li>
+                <li><a href="" class="mob-menu-item link">Contacts</a></li>
+              </ul>
+
+              <ul class="mob-menu-contact list">
+                <li class="mob-menu-mail">
+                  <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                </li>
+                <li class="mob-menu-phone">
+                  <a class="link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                </li>
+              </ul>
+        
+              <ul class="mob-menu-soc-contacts list">
+                <li class="mob-menu-soc-items">
+                  <a href="" class="mob-menu-soc-link link">
+                    <svg class="mob-menu-soc-icon" width="16" height="16">
+                      <use href="./images/icons.svg#icon-instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="mob-menu-soc-items">
+                  <a href="" class="mob-menu-soc-link link">
+                    <svg class="mob-menu-soc-icon" width="16" height="16">
+                      <use href="./images/icons.svg#icon-twitter"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="mob-menu-soc-items">
+                  <a href="" class="mob-menu-soc-link link">
+                    <svg class="mob-menu-soc-icon" width="16" height="16">
+                      <use href="./images/icons.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="mob-menu-soc-items">
+                  <a href="" class="mob-menu-soc-link link">
+                    <svg class="mob-menu-soc-icon" width="16" height="16">
+                      <use href="./images/icons.svg#icon-linkedin"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+        </div>
+        </nav>
         
 
    <!-------------------------- JS_SCRIPT ---------------------------->
 
     <script src="./js/modal.js"></script>
-
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
