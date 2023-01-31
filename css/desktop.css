@@ -4,6 +4,9 @@
     }
 
 /* ----------------------- TOP-LINE -----------------------*/
+.logo {
+    margin-right: 76px;
+}
 .contact {
     display: flex;
     align-items: center;

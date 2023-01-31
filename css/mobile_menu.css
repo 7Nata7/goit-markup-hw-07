@@ -1,42 +1,34 @@
-
+/* ----------BURGER & CLOSE-------------- */
 .menu-open {
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
     width: 32px;
     height: 22px;
-    padding: 0;
     border: none;
     background-color: transparent;
 }
 
-.menu-open-icon {}
-
-.mob-menu {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    z-index: 1;
-    background-color: #FFFFFF;
+.header-container {
+    display: flex;
+    align-items: center;
+    gap: 249px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .mob-close {
     position: absolute;
-        top: 24px;
-        right: 24px;
-        width: 24px;
-        height: 24px;
-        border-radius: 50%;
-        cursor: pointer;
-        background-color: var(--modal-close-bc);
-        border: 1px solid rgba(0, 0, 0, 0.1);
-        transition: background-color var(--transition),
-            fill var(--transition);
-}
-
-.modal-close:hover,
-.modal-close:focus {
-    background-color: var(--first-active-color);
-    fill: var(--btn-color);
+    top: 24px;
+    right: 24px;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: var(--modal-close-bc);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    transition: background-color var(--transition),
+        fill var(--transition);
 }
 
 .mob-close-cross {
@@ -46,48 +38,111 @@
     transform: translate(-50%, -50%);
 }
 
+.mob-close:hover,
+.mob-close:focus {
+    background-color: var(--first-active-color);
+    fill: var(--btn-color);
+}
 
-.mob-menu-list {}
+/* -----------MOB MENU -----------*/
+.mob-menu {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100vw;
+    height: 100vh;
+    background-color: #ffffff;
+    padding: 40px;
+    overflow-y: scroll;
+}
 
+/* .mob-menu>.container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: auto;
+} */
+
+/* -------------MENU_SITE-------------------- */
+
+.mob-menu-list {
+    margin-bottom: 284px;
+    margin-top: 16px;
+}
+.mob-menu-item:not(:last-child) {
+    margin-bottom: 40px;
+}
+.mob-menu-link {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
 .mob-menu-item {
     font-weight: 700;
-        font-size: 36px;
-        line-height: 1.1;
-        letter-spacing: 0.02em;    
-        color: var(--menu-color);
+    font-size: 36px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    color: var(--menu-color);
+}
+.mob-menu-link:hover,
+.mob-menu-link:focus {
+    background-color: var(--first-active-color);
 }
 
-.mob-menu-contact {}
-
-
-.mob-menu-mail {
-    font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2; 
-        letter-spacing: 0.02em;
-        color: var(--slate-color);
-}
-
+/* ----------------CONTACTS---------------- */
 .mob-menu-phone {
     font-weight: 600;
     font-size: 36px;
-    line-height: 1.1;    
+    line-height: 1.1;
+    color: var(--active-color);
+    transition: color var(--transition);
+    margin-bottom: 40px;
+}
+
+.mob-menu-mail {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--slate-color);
+    transition: color var(--transition);
+}
+
+.connection {
+    color: var(--slate-color);
+        }
+
+
+
+.mob-menu-item:hover,
+.mob-menu-item:focus,
+.mob-menu-mail:hover,
+.mob-menu-mail:focus,
+.mob-menu-phone:hover,
+.mob-menu-phone:focus {
     color: var(--active-color);
 }
 
-
-.mob-menu-soc-contacts {
+.current {
+    color: var(--active-color);
+}
+/*---------------- SOC_NETWORK -------------------- */
+.soc-mob-contacts{
     display: flex;
-    justify-content: center;
-    gap: 56px;
+    justify-content: space-between;
+    gap: 24px;
+    margin-top: 48px;
 }
 
-.mob-menu-soc-items {
+.soc-items {
     width: 40px;
     height: 40px;
 }
 
-.mob-menu-soc-link {
+.soc-link {
     transition: background-color var(--transition);
     width: 100%;
     height: 100%;
@@ -97,89 +152,12 @@
     display: flex;
     align-items: center;
 }
-.mob-menu-soc-icon {
-        fill: #F4F4FD;
+
+.soc-icon {
+    fill: #F4F4FD;
 }
-.mob-menu-soc-link:hover,
-.mob-menu-soc-link:focus {
+
+.soc-link:hover,
+.soc-link:focus {
     background-color: var(--first-active-color);
 }
-
-.contact {
-    display: block;
-    margin-left: auto;
-}
-
-.menu {
-    display: flex;
-    align-items: center;
-    gap: 40px;
-}
-
-.menu-item {
-    position: relative;
-    transition: color var(--transition);
-    font-weight: 500;
-    color: var(--menu-color);
-    padding-top: 24px;
-    padding-bottom: 24px;
-    display: block;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
-
-.menu-item:hover,
-.menu-item:focus,
-.mail:hover,
-.mail:focus,
-.phone:hover,
-.phone:focus,
-.agreement {
-    color: var(--active-color);
-}
-
-.menu-item.current::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 4px;
-    background-color: var(--first-active-color);
-    border-radius: 2px;
-}
-
-.connection {
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--slate-color);
-}
-
-.mail {
-    transition: color var(--transition);
-    margin-right: 40px;
-}
-
-.phone {
-    transition: color var(--transition);
-    font-weight: 400;
-}
-
-/* .mob-menu {
-    position: fixed;
-    top: 0;
-    z-index: 1;
-    width: 100vw;
-    height: 100vh;
-    background-color: #ffffff;
-    padding-top: 48px;
-    padding-bottom: 48px;
-}
-
-.mob-menu>.container {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    overflow: auto;
-} */

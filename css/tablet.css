@@ -7,6 +7,18 @@
     .header-container {
         display: flex;
         align-items: center;
+            padding-top: 0;
+                padding-bottom: 0;
+                gap: 0;
+    }
+    .logo {
+        margin-right: 120px;
+    }
+    .mob-menu {
+        display: none;
+    }
+    .menu-open {
+        display: none;
     }
     .contact {
         display: block;
