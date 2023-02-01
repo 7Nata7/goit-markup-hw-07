@@ -7,15 +7,25 @@
     height: 22px;
     border: none;
     background-color: transparent;
+    margin-left: auto;
 }
 
-.header-container {
+
+
+/* .menu-open-icon {
+    margin-left: auto;
+} */
+
+
+
+/* .container.header-container {
     display: flex;
     align-items: center;
-    gap: 249px;
-    padding-top: 24px;
-    padding-bottom: 24px;
-}
+    justify-content: space-between; */
+
+    /* padding-top: 24px;
+    padding-bottom: 24px; */
+
 
 .mob-close {
     position: absolute;

@@ -1,15 +1,22 @@
 /* меньше чем 480 (т.е.для 320) */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 479px) {
     .main-title {
         width: 280px;
         font-size: 30px;
     }
     .modal {
         width: 320px;
+        padding: 72px 16px 24px;
     }
     .logo {
         margin-right: 0;
     }
+        .mob-menu {
+            padding: 20px;
+        }
+                .mob-menu-phone {
+                    font-size: 24px;
+                }
     
 }
 
