@@ -1,31 +1,11 @@
 /* ----------BURGER & CLOSE-------------- */
 .menu-open {
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
     width: 32px;
     height: 22px;
     border: none;
     background-color: transparent;
     margin-left: auto;
 }
-
-
-
-/* .menu-open-icon {
-    margin-left: auto;
-} */
-
-
-
-/* .container.header-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between; */
-
-    /* padding-top: 24px;
-    padding-bottom: 24px; */
-
 
 .mob-close {
     position: absolute;
@@ -65,14 +45,6 @@
     padding: 40px;
     overflow-y: scroll;
 }
-
-/* .mob-menu>.container {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    overflow: auto;
-} */
 
 /* -------------MENU_SITE-------------------- */
 
@@ -125,8 +97,6 @@
     color: var(--slate-color);
         }
 
-
-
 .mob-menu-item:hover,
 .mob-menu-item:focus,
 .mob-menu-mail:hover,
@@ -170,4 +140,8 @@
 .soc-link:hover,
 .soc-link:focus {
     background-color: var(--first-active-color);
+}
+
+.no-scroll {
+    overflow: hidden;
 }

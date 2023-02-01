@@ -9,7 +9,6 @@
         align-items: center;
             padding-top: 0;
                 padding-bottom: 0;
-                /* gap: 0; */
     }
     .logo {
         margin-right: 120px;
@@ -82,6 +81,14 @@
         max-width: 768px;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/bcg_tab.jpg);
     }
+
+                @media (min-device-pixel-ratio: 2),
+                (min-resolution: 192dpi),
+                (min-resolution: 2dppx) {
+                    .hero-ground {
+                        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/bcg_tab-2x.jpg);
+                    }
+                }
     .main-title {
         font-size: 56px;
         line-height: 1.07;
