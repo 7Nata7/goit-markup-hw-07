@@ -10,6 +10,10 @@
 .contact {
     display: flex;
     align-items: center;
+    font-size: 16px;
+}
+.mail {
+    margin-right: 40px;
 }
 
 /* --------------------------HERO------------------------- */
@@ -39,6 +43,7 @@
   /* ----------------------ADVANTAGES--------------------- */
 .advantages {
     padding-top: 120px;
+    padding-bottom: 120px;
      }
 .picture-adv {
     display: flex;
@@ -75,6 +80,7 @@
 /* ----------------------------TEAM--------------------- */
     .team {
         padding-top: 120px;
+        padding-bottom: 120px;
      }
     .card-general {
         flex-wrap: nowrap;

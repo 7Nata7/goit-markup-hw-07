@@ -22,6 +22,7 @@
     .contact {
         display: block;
         margin-left: auto;
+        font-size: 12px;
     }
     .menu {
         display: flex;
@@ -44,8 +45,7 @@
     .mail:hover,
     .mail:focus,
     .phone:hover,
-    .phone:focus,
-    .agreement {
+    .phone:focus {
         color: var(--active-color);
     }
     .menu-item.current::after {
@@ -58,6 +58,9 @@
         background-color: var(--first-active-color);
         border-radius: 2px;
     }
+    .current {
+            color: var(--active-color);
+    }
     .connection {
         line-height: 1.5;
         letter-spacing: 0.02em;
@@ -65,7 +68,6 @@
     }
     .mail {
         transition: color var(--transition);
-        margin-right: 40px;
     }
     .phone {
         transition: color var(--transition);

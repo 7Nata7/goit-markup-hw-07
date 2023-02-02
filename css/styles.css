@@ -183,6 +183,7 @@ padding-bottom: 24px;
 /* --------------------ADVANTAGES--------------------- */
 .advantages {
     padding-top: 96px;
+    padding-bottom: 96px;
 }
 .visually-hidden {
     width: 1px;
@@ -228,6 +229,7 @@ padding-bottom: 24px;
     margin-left: auto;
     margin-right: auto;
     padding-top: 96px;
+    padding-bottom: 96px;
 }
 .heading {
     font-weight: 700;
@@ -561,6 +563,8 @@ padding-bottom: 24px;
     border-radius: 4px;
     transform: translate(-50%, -50%) scale(1);
     transition: transform var(--transition);
+    width: 310px;
+    padding: 72px 16px 24px;
 }
 
 .modal-close {
@@ -702,6 +706,7 @@ padding-bottom: 24px;
 .agreement {
     outline: none;
     margin-left: 3px;
+    color: var(--active-color);
 }
 
 /* -------------------BUTTON-SEND---------------- */

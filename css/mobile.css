@@ -4,31 +4,30 @@
         width: 280px;
         font-size: 30px;
     }
-    .modal {
-        width: 320px;
-        padding: 72px 16px 24px;
-    }
     .logo {
         margin-right: 0;
     }
-        .mob-menu {
+        /* .mob-menu {
             padding: 20px;
-        }
-                .mob-menu-phone {
-                    font-size: 24px;
-                }
+        } */
+                
     
 }
-
+@media screen and (min-width: 428px) {
+.modal {
+        width: 392px;
+        padding: 72px 16px 24px;
+    }
+        .mob-menu-phone {
+            font-size: 36px;
+        }
+}
 
 /* больше чем 480 */
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 479px) {
     .container {
         max-width: 428px;
     }
-        .modal {
-            width: 392px;
-            padding: 72px 16px 24px;
-        }
+                
 }
 
