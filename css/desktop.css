@@ -89,7 +89,7 @@
 
 /* ---------------------- CUSTOMERS ------------------- */
     .customers {
-        padding-top: 130px;
+        padding-top: 120px;
         width: 1128px;
             }
     .company {
@@ -104,8 +104,10 @@
 
 /*------------------------- first-box --------------------*/
     .three-boxes {
-                row-gap: 0;
-                    column-gap: 0;
+        row-gap: 0;
+        column-gap: 0;
+        margin-left: auto;
+        margin-right: auto;
     }
 
 .first-footer-box {
@@ -120,7 +122,4 @@
     }
 
 /* ------------------------BACKDROP----------------------- */
-.modal {
-    top: 50%;
-}
 }
